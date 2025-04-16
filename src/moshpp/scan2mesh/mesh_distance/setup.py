@@ -11,7 +11,7 @@ if platform.system().lower() in ['darwin', 'linux']:
     import sysconfig
 
     extra_compile_args = sysconfig.get_config_var('CFLAGS').split()
-    extra_compile_args += ["-std=c++11"]
+    extra_compile_args += ["-std=c++11", "-I/opt/homebrew/include"]
     additional_options['extra_compile_args'] = extra_compile_args
 
 setup_extended(
