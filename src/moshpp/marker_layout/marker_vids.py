@@ -414,7 +414,7 @@ marker_type_labels = {
 
     ],
     'finger_right': [
-        'RTH',
+        'RTHMB',
         'RIBHI',
         'RIBHM',
         'RIBHR',
