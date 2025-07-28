@@ -350,6 +350,9 @@ all_marker_vids = {'smpl': {
                         'LETPIPOUT': 88,
                         'LETDIP': 706,
                         'LETTIP': 727,
+                        'LIWR': 91,
+                        'LOWR': 53,
+                        'LETTIP': 727,
                         'RTHMB': 230,
                         'RIBHI': 145,
                         'RIBHM': 18,
@@ -370,7 +373,9 @@ all_marker_vids = {'smpl': {
                         'RIPTIP': 654,
                         'RITPIPOUT': 88,
                         'RITDIP': 706,
-                        'RITTIP': 727
+                        'RITTIP': 727,
+                        'RIWR': 91,
+                        'ROWR': 53
                     }
                 }
 

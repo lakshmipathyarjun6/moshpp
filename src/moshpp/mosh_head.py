@@ -576,7 +576,7 @@ class MoSh:
         for l, vid in marker_meta['marker_vids'].items():
             if l in opt_marker_vids:
                 marker_meta['marker_vids'][l] = opt_marker_vids[l]
-                # logger.info(f'updating {l}: {mosh_stagei["marker_meta"]["marker_vids"][l]} ->  {opt_marker_vids[l]}: {marker_meta["marker_vids"][l]}')
+                logger.info(f'updating {l}: {mosh_stagei["marker_meta"]["marker_vids"][l]} ->  {opt_marker_vids[l]}: {marker_meta["marker_vids"][l]}')
 
         return marker_meta
 
