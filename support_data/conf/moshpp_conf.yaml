@@ -155,7 +155,7 @@ opt_weights:
     stagei_wt_init_finger_right: 400.0
     stagei_wt_init_finger: 400.0
     stagei_wt_betas: 10.
-    stagei_wt_init: 300
+    stagei_wt_init: 700
     stagei_wt_data: 75.
     stagei_wt_surf: 10000.
     stagei_wt_annealing: [ 1., .5, .25, .125 ]
